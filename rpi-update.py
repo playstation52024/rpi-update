@@ -5,6 +5,7 @@ from time import sleep as s
 print('Please enter the codename for the version of Raspbian you want to install:')
 codename = input('>>> ')
 
+sys('sudo su')
 # Switch repositories
 print('Switching repositories...')
 with open ('/etc/apt/sources.list', 'w') as f:
