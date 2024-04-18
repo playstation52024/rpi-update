@@ -13,7 +13,7 @@ To run rpi-update, enter the `rpi-update` directory, then run
 
 `sudo chgrp` (enter your username here)` /etc/apt/sources.list `, followed by
 
-`sudo chmod g+w`, and then
+`sudo chmod g+w /etc/apt/sources.list`, and then
 
 `python3 rpi-update.py`
 
