@@ -9,8 +9,8 @@ codename = input('>>> ')
 # Switch repositories
 print('Switching repositories...')
 with open ('/etc/apt/sources.list', 'w') as f:
-    f.write('deb https://raspbian.raspberrypi.org/raspbian/ ' + codename + ' main contrib non-free rpi')
-    f.write('# Uncomment line below then \'apt-get update\' to enable \'apt-get source\'')
+    f.write('deb https://raspbian.raspberrypi.org/raspbian/ ' + codename + ' main contrib non-free rpi\n')
+    f.write('# Uncomment line below then \'apt-get update\' to enable \'apt-get source\'\n')
     f.write('#deb- src https://raspbian.raspberrypi.org/raspbian/ ' + codename + 'main contrib non-free rpi')
 print('Repositories switched successfully.')
 
