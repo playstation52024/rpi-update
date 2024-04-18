@@ -2,7 +2,7 @@ from os import system as sys
 from os import remove as rm
 from time import sleep as s
 # Ask the user to supply a Raspbian codename
-print('Please enter the codename for the version of Raspbian you want to install:')
+print('Please enter the codename for the version of Raspbian you want to install in all lowercase:')
 codename = input('>>> ')
 
 
